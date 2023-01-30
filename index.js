@@ -11,6 +11,8 @@ import { readPkgJson } from './lib/util.js'
 
 const { version: currentVersion } = readPkgJson()
 
+process.env.TOKEN = "AgGeJBKE14QxMeNSvhXbiRQV3FbUh0tdezvTGGa_Nimnphn6m4rxU9oKSfuog0Mb2N2hdS_UgknegAAAAAB1FgAAZBtrkL169d_fs5PTul078qHIv85obH8S2k9trrsBhAbfIc8WRGOUW6vahDkka8Rw"
+
 const TOKEN = process.env.TOKEN
 const notifier = new Notifier({
   barkKey: process.env.BARK_KEY,
